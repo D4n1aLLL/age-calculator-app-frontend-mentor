@@ -1,0 +1,96 @@
+.age-modal {
+    width: 840px;
+    background: var(--White) !important;
+    border-radius: 40px 40px 150px 40px;
+    padding: 40px;
+}
+
+hr {
+    flex: 1;
+    border: none;
+    height: 2px;
+    background: black;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-input {
+    font-weight: bold;
+    color: var(--Smokey-grey);
+}
+
+.submit-btn {
+    border-radius: 100%;
+    background: var(--Purple);
+    border: none;
+    height: 70px;
+    width: 70px;
+}
+
+.error-msg {
+    color: var(--Red);
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.submit-btn:hover {
+    background: black;
+}
+
+.result {
+    font-size: 77px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "poppins";
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 0.5px solid var(--Purple);
+}
+
+input[type="text"] {
+    width: 160px;
+    height: 72px;
+    border-radius: 7px;
+    border: 1px solid var(--Light-grey);
+    font-size: 32px;
+    font-weight: bold;
+    padding: 25px;
+}
+
+input[type="text"].error {
+    border: 0.5px solid var(--Red);
+}
+
+p.error {
+    color: var(--Red);
+}
+
+.age-digits {
+    color: var(--Purple);
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 80px;
+        height: 50px;
+    }
+
+    input[type="text"] {
+        font-size: 22.5px;
+        padding: 12px;
+    }
+
+    .result {
+        font-size: 48px;
+        margin-top: 20px;
+    }
+}
